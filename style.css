@@ -1,4 +1,4 @@
-s@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 body{font-family: 'Karla', sans-serif; background-color: #EBE9DE;}
 
 section, .project{padding:40px 0;}
