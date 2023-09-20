@@ -1,12 +1,8 @@
-/* @override 
-	http://osvaldouribe.com/portfolio/style.css
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Karla');
+s@import url('https://fonts.googleapis.com/css?family=Karla');
 body{font-family: 'Karla', sans-serif; background-color: #EBE9DE;}
 
 section, .project{padding:40px 0;}
-footer{background-color: #D8D8D8;}
+footer{background-color: #EBE9DE; border-top:1px solid #C1B1C8;}
 
 /*typography*/
 
