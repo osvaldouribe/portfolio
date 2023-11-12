@@ -53,7 +53,7 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-12">
-				<h2>Revitalizing Cities with Lightspeed's Retail POS</h2>
+				<h3>Revitalizing Cities with Lightspeed's Retail POS</h3>
 				<p class="timeline">Jul 2018 - Jul 2020</p>
                 <p>My journey with <a href="https://www.lightspeedhq.com">Lightspeed</a> provided me with a remarkable opportunity – taking ownership of their Retail Point of Sale for iOS. This experience was invaluable.
 
@@ -72,7 +72,7 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Versatile Roles at Opslock</h2>
+				<h3>Versatile Roles at Opslock</h3>
 				<p class="timeline">Jul 2020 - Jul 2021</p>
                 <p>During my time at <a href="https://www.opslock.com">Opslock</a>, I took on various roles. I spearheaded the development of a comprehensive Design System, while also nurturing a Design Thinking culture within the organization. This endeavor was particularly rewarding, as it involved building a non-existent product that harnessed artificial intelligence to calculate real-time risk.</p>
 
@@ -90,7 +90,7 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Mural: Empowering On-the-Go Collaboration</h2>
+				<h3>Mural: Empowering On-the-Go Collaboration</h3>
 				<p class="timeline">Jul 2021 - Aug 2022</p>
 				<p><a href="https://www.mural.co">Mural</a> is undoubtedly one of the most incredible web apps I've ever encountered. It doesn't just enable you to visualize your ideas, but it also facilitates real-time collaboration with others.</p>
                 <p>My role revolves around ensuring that this seamless collaboration extends to mobile and tablet users. I focus on optimizing the interface for these platforms, allowing people to work together wherever they are.</p>
@@ -107,7 +107,7 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Empowering the Hospitality Industry with a Suite of Products at Life House</h2>
+				<h3>Empowering the Hospitality Industry with a Suite of Products at Life House</h3>
 				<p class="timeline">Sep 2022 – Current</p>
 				<p>Our journey at <a href="https://www.life-house.com">Life House</a> began by standardizing the User Interface, a crucial first step. We then elevated it through close collaboration with the Engineering team to expedite the development process. This collaborative effort allowed us to swiftly bring our products to market, where we could finally engage in meaningful conversations with our customers.</p>
 				<a href="lifehouse.php" class="cta-main">Work In Progress</a>
