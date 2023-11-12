@@ -7,13 +7,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom Style -->
-	<link rel="stylesheet" href="style.css?=v4">
+	<link rel="stylesheet" href="style.css?=v6">
   </head>
   <body>
 	<header class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h1><a href="index.html">Osvaldo Uribe</a></h1>
+			<div id="brand" class="col-md-6">
+				<h1><a href="index.php">Osvaldo Uribe</a></h1>
+			</div>
+			<div id="navigation" class="col-md-6">
+				<ul>
+					<li><a href="services.php">Services</a>
+					<!-- <li><a href="about.php">About</a> -->
+				</ul>
 			</div>
 		</div>
 	</header>
@@ -53,7 +59,7 @@
 
 				<p>During this time, I had the privilege of collaborating with numerous internal stakeholders and various user types. I played a key role in connecting them and facilitating the most significant product release in many years. This achievement earned me an internal promotion, allowing me to collaborate closely with the Sales team to revamp their processes.</p>
                 
-				<a href="lightspeed.html" class="cta-main">Read the full story</a>
+				<a href="lightspeed.php" class="cta-main">Read the full story</a>
 			</div>
 			<div class="col-md-6 offset-md-2">
 				<img src="img/project-lightspeed.png" class="rounded img-fluid">
@@ -71,7 +77,7 @@
                 <p>During my time at <a href="https://www.opslock.com">Opslock</a>, I took on various roles. I spearheaded the development of a comprehensive Design System, while also nurturing a Design Thinking culture within the organization. This endeavor was particularly rewarding, as it involved building a non-existent product that harnessed artificial intelligence to calculate real-time risk.</p>
 
 				<p>In parallel, I facilitated discovery sessions to chart the current Customer Journey as part of our commitment to assisting customers in their digitalization processes.</p>
-				<a href="opslock.html" class="cta-main">Check out the Opslock project</a>
+				<a href="opslock.php" class="cta-main">Check out the Opslock project</a>
 			</div>
 			<div class="col-md-6 offset-md-2">
 				<img src="img/project-opslock.jpg" class="rounded img-fluid">
@@ -88,7 +94,7 @@
 				<p class="timeline">Jul 2021 - Aug 2022</p>
 				<p><a href="https://www.mural.co">Mural</a> is undoubtedly one of the most incredible web apps I've ever encountered. It doesn't just enable you to visualize your ideas, but it also facilitates real-time collaboration with others.</p>
                 <p>My role revolves around ensuring that this seamless collaboration extends to mobile and tablet users. I focus on optimizing the interface for these platforms, allowing people to work together wherever they are.</p>
-				<a href="mural.html" class="cta-main">Start collaborating</a>
+				<a href="mural.php" class="cta-main">Start collaborating</a>
 			</div>
 			<div class="col-md-6 offset-md-2">
 				<img src="img/project-mural.jpg" class="rounded img-fluid">
@@ -104,7 +110,7 @@
 				<h2>Empowering the Hospitality Industry with a Suite of Products at Life House</h2>
 				<p class="timeline">Sep 2022 – Current</p>
 				<p>Our journey at <a href="https://www.life-house.com">Life House</a> began by standardizing the User Interface, a crucial first step. We then elevated it through close collaboration with the Engineering team to expedite the development process. This collaborative effort allowed us to swiftly bring our products to market, where we could finally engage in meaningful conversations with our customers.</p>
-				<a href="lifehouse.html" class="cta-main">Work In Progress</a>
+				<a href="lifehouse.php" class="cta-main">Work In Progress</a>
 			</div>
 			<div class="col-md-6 offset-md-2">
 				<img src="img/project-lifehouse.png" class="rounded img-fluid">
@@ -120,15 +126,6 @@
 			</div>
 		</div><!--Project-->
 	</section>
-	<footer class="fluid-container">
-		<section class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<h3>Would you like to know a bit more about me and what I’m doing? Send me an email to osvaldouribeescobar (at) gmail (dot-com), or directly on <a href="https://www.linkedin.com/in/osvaldouribe/" target="_blank">Linkedin</a>.</h3>
-					<p>Coded by hand using html and css with the help of GitHub and Netlify – Lot's of love, Osvaldo.</p>
-				</div>
-			</div><!--row-->
-		</section>
-	</footer>
+	<?php include 'footer.php'; ?>
   </body>
 </html>

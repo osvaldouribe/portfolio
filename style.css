@@ -1,31 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Karla');
-body{font-family: 'Karla', sans-serif; background-color: #EBE9DE;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+body{font-family: 'Inter', sans-serif; background-color: #EBE9DE;}
 
-section, .project{padding:40px 0;}
-footer{background-color: #EBE9DE; border-top:1px solid #C1B1C8;}
+section, .project{padding:80px 0;}
+footer{border-top:1px solid #C1B1C8; margin:24px;}
 
 /*typography*/
 
 h1{
-	font-size: 18px;
-	font-weight: 400;
+	font-size: 16px;
+	font-weight: 700;
 	margin: 40px 0 0 0;
+	line-height:1.5;
 }
 h1 a{
 	color: #201F1F;
 }
 h2{
-	font-size: 38px;
-	font-weight: 300;
-	margin: 40px 0;
-	color: #201F1F;
+	font-size: 48px;
+	line-height: 62px;
+	font-weight: 700;
+	font-style: normal;
+	margin: 0 0 80px 0;
+	color: #59446D;
+}
+h2 span{
+	color: #140223;
 }
 h3{
 	font-size: 24px;
-	font-weight: 400;
-    line-height: 32px;
-	margin: 20px 0;
-	color: #201F1F;
+	line-height: 32px;
+	font-weight: 500;
+	font-style: normal;
+	margin: 0 0 40px 0;
+	color: #59446D;
+}
+h4{
+	color: #140223;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+h5{
+	color: #59446D;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 p{
 	font-size: 16px;
@@ -42,32 +63,64 @@ figcaption{
 	margin: 4px 0;
 	color: #4f5255;
 }
+a.cta-secondary{font-size:24px; text-decoration:underline;color: #3561D0;font-weight: 500;line-height: normal;}
+a.cta-secondary:hover{text-decoration:underline;color: #7935D0;}
 a.cta-main{
-	background: url(img/arrow.png) right center no-repeat #9747bb;
-	background-size: 35px;
+	font-size:24px;
 	color: #fff;
-	padding: 18px 48px 18px 18px;
+	padding: 16px 32px;
 	margin: 18px 0;
-	display: table;
+	border-radius: 32px;
 	transition: 1s;
-	border-radius: 4px;
+	background: #3561D0;
+	text-decoration: none;
+	font-weight: 700;
 }
 a.cta-main:hover{
-	text-decoration: none;
 	color: #fff;
-	background-color: #C9A5D9;
-	background-size: 35px;
+	background-color: #7935D0;
+	text-decoration: none;
 }
+a.cta-main-dark{
+	font-size:24px;
+	color: #3561D0;
+	padding: 16px 32px;
+	margin: 18px 0;
+	border-radius: 32px;
+	transition: 1s;
+	background: #fff;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.dark h2, .dark h3, .dark h4, .dark p{color:#F2E7F8;}
+
+h2 a, h3 a, p a, figcaption a{color: #9747bb;}
+h1 a:hover, h2 a:hover, h3 a:hover, p a:hover, figcaption a:hover, #navigation ul li a:hover {text-decoration: none; color: #7D349D;}
+/*specifics*/
+
+.benefits h3{margin:16px 0;}
+#navigation ul {list-style:none;padding:0;margin:40px 0 0 0;text-align:right; font-size:16px; line-height:1.5;}
+#navigation ul li a {color: #201F1F;}
+ul.services{list-style:none; text-align:center; width:100%; padding:0;font-size:48px; font-weight:700; line-height:66px; color:#140223;}
+
+.extra-spacing{padding:160px 0;}
+.medium-spacing{padding:80px 0;}
+
+#subscribe ul{font-size: 24px;font-style: normal;font-weight: 400;line-height: 42px;list-style:none;padding:0;color: #59446D;margin:32px 0;}
+
+footer ul{list-style:none;padding:0;color:#59446D;}
+footer ul li:first-child{font-weight:700;}
+footer a, footer p{color:#59446D;}
+footer p{margin:0;}
+
+/*Not sure what "#doing" is*/
 #doing{
 	background: url(img/graph.png) left top no-repeat fixed #D8D8D8;
 	background-size: 1030px;
 }
 #doing p:first-child{padding-top: 320px;}
 #doing p:last-child{padding-bottom: 70px;}
-
-h2 a, h3 a, p a, figcaption a{color: #9747bb;}
-h1 a:hover, h2 a:hover, h3 a:hover, p a:hover, figcaption a:hover{text-decoration: none; color: #7D349D;}
-
 
 /* Responsive */
 @media only screen and (max-width:1024px){
