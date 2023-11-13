@@ -120,10 +120,11 @@ footer p{margin:0;}
 	#doing p:first-child{padding-top: 620px;	}
 	#doing p:last-child{padding-bottom: 0;
 	}
-	.content-spacing{margin:8px;padding:16px;}
+
 	h2, ul.services{font-size:32px;line-height:42px;}
 	.logotype{width:10%;}
-	.extra-spacing{padding:40px 0;}
+	.extra-spacing{padding:40px 8px;}
+	.content-spacing{margin:8px;padding:16px;}
 }
 
 .video-responsive{
