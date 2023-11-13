@@ -121,7 +121,7 @@ footer p{margin:0;}
 	#doing p:last-child{padding-bottom: 0;
 	}
 
-	h2, ul.services{font-size:32px;line-height:42px;}
+	h2, ul.services{font-size:32px;line-height:42px;} h2{margin: 0 0 40px 0;}
 	.logotype{width:10%;}
 	.extra-spacing{padding:40px 8px;}
 	.content-spacing{margin:8px;padding:16px;}
