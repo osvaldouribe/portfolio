@@ -65,33 +65,11 @@ figcaption{
 }
 a.cta-secondary{font-size:24px; text-decoration:underline;color: #3561D0;font-weight: 500;line-height: normal;}
 a.cta-secondary:hover{text-decoration:underline;color: #7935D0;}
-a.cta-main{
-	font-size:24px;
-	color: #fff;
-	padding: 16px 32px;
-	margin: 18px 0;
-	border-radius: 32px;
-	transition: 1s;
-	background: #3561D0;
-	text-decoration: none;
-	font-weight: 700;
-}
-a.cta-main:hover{
-	color: #fff;
-	background-color: #7935D0;
-	text-decoration: none;
-}
-a.cta-main-dark{
-	font-size:24px;
-	color: #3561D0;
-	padding: 16px 32px;
-	margin: 18px 0;
-	border-radius: 32px;
-	transition: 1s;
-	background: #fff;
-	text-decoration: none;
-	font-weight: 700;
-}
+
+a.cta-main{font-size:24px; color: #fff; padding: 16px 32px; margin: 18px 0; border-radius: 32px; transition: .5s; background: #3561D0; text-decoration: none; font-weight: 700; display:inline-block;}
+a.cta-main:hover{color: #fff; background-color: #7935D0; text-decoration: none;}
+
+a.cta-main-dark{font-size:24px; color: #3561D0; padding: 16px 32px; margin: 18px 0; border-radius: 32px; transition: 1s; background: #fff; text-decoration: none; font-weight: 700; display:inline-block;}
 
 .dark h2, .dark h3, .dark h4, .dark p{color:#F2E7F8;}
 
@@ -104,8 +82,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, p a:hover, figcaption a:hover, #navigation u
 #navigation ul li a {color: #201F1F;}
 ul.services{list-style:none; text-align:center; width:100%; padding:0;font-size:48px; font-weight:700; line-height:66px; color:#140223;}
 
+/*Spacing*/
 .extra-spacing{padding:160px 0;}
 .medium-spacing{padding:80px 0;}
+.small-spacing-bottom{padding-bottom:40px}
+
+.content-spacing{background:#7935D0; margin:24px; border-radius:16px;}
 
 #subscribe ul{font-size: 24px;font-style: normal;font-weight: 400;line-height: 42px;list-style:none;padding:0;color: #59446D;margin:32px 0;}
 
@@ -138,6 +120,9 @@ footer p{margin:0;}
 	#doing p:first-child{padding-top: 620px;	}
 	#doing p:last-child{padding-bottom: 0;
 	}
+	.content-spacing{margin:8px;padding:16px;}
+	h2, ul.services{font-size:32px;line-height:42px;}
+	.logotype{width:10%;}
 }
 
 .video-responsive{
