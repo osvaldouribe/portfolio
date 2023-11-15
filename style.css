@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-body{font-family: 'Inter', sans-serif; background-color: #EBE9DE;}
+body{font-family: 'Inter', sans-serif; background-color: #E9DBF1;}
 
 section, .project{padding:80px 0;}
 footer{border-top:1px solid #C1B1C8; margin:24px;}
@@ -17,7 +17,7 @@ h1 a{
 }
 h2{
 	font-size: 48px;
-	line-height: 62px;
+	line-height: 56px;
 	font-weight: 700;
 	font-style: normal;
 	margin: 0 0 80px 0;
@@ -50,9 +50,9 @@ h5{
 }
 p{
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	margin: 18px 0;
-	color: #201F1F;
+	color: rgba(30, 27, 32, 0.80);
 }
 p.timeline{
 	font-size:10px;
@@ -63,7 +63,7 @@ figcaption{
 	margin: 4px 0;
 	color: #4f5255;
 }
-a.cta-secondary{font-size:24px; text-decoration:underline;color: #3561D0;font-weight: 500;line-height: normal;}
+a.cta-secondary{font-size:16px; text-decoration:underline; color:#7035D0; font-weight: 500;line-height: normal;}
 a.cta-secondary:hover{text-decoration:underline;color: #7935D0;}
 
 a.cta-main{font-size:24px; color: #fff; padding: 16px 32px; margin: 18px 0; border-radius: 32px; transition: .5s; background: #3561D0; text-decoration: none; font-weight: 700; display:inline-block;}
@@ -73,7 +73,7 @@ a.cta-main-dark{font-size:24px; color: #3561D0; padding: 16px 32px; margin: 18px
 
 .dark h2, .dark h3, .dark h4, .dark p{color:#F2E7F8;}
 
-h2 a, h3 a, p a, figcaption a{color: #9747bb;}
+h2 a, h3 a, p a, figcaption a{color: #7035D0; text-decoration:underline;}
 h1 a:hover, h2 a:hover, h3 a:hover, p a:hover, figcaption a:hover, #navigation ul li a:hover {text-decoration: none; color: #7D349D;}
 /*specifics*/
 
